@@ -49,6 +49,10 @@ public class BarraWindows extends javax.swing.JFrame {
         btnBeneficioGeral = new javax.swing.JButton();
         btnPlanoSaude = new javax.swing.JButton();
         btnContratacao = new javax.swing.JButton();
+        btnTokioSaber = new javax.swing.JButton();
+        btnTrilhaCarreira = new javax.swing.JButton();
+        btnRemuneracao = new javax.swing.JButton();
+        btnMobilidade = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Contador de ligações - RH Tokio Marine Seguradora");
@@ -88,7 +92,7 @@ public class BarraWindows extends javax.swing.JFrame {
         });
         getContentPane().add(btnFolha);
 
-        btnRecisao.setText("Recisão");
+        btnRecisao.setText("Previdência");
         btnRecisao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRecisaoActionPerformed(evt);
@@ -112,13 +116,25 @@ public class BarraWindows extends javax.swing.JFrame {
         });
         getContentPane().add(btnPlanoSaude);
 
-        btnContratacao.setText("Contratação");
+        btnContratacao.setText("Gympass");
         btnContratacao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnContratacaoActionPerformed(evt);
             }
         });
         getContentPane().add(btnContratacao);
+
+        btnTokioSaber.setText("Tokio Saber");
+        getContentPane().add(btnTokioSaber);
+
+        btnTrilhaCarreira.setText("Trilha");
+        getContentPane().add(btnTrilhaCarreira);
+
+        btnRemuneracao.setText("Remuneração");
+        getContentPane().add(btnRemuneracao);
+
+        btnMobilidade.setText("Mobilidade");
+        getContentPane().add(btnMobilidade);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -159,9 +175,6 @@ public class BarraWindows extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        
-        
-        
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -206,8 +219,12 @@ public class BarraWindows extends javax.swing.JFrame {
     private javax.swing.JButton btnFerias;
     private javax.swing.JButton btnFolha;
     private javax.swing.JButton btnLicMaternidade;
+    private javax.swing.JButton btnMobilidade;
     private javax.swing.JButton btnPlanoSaude;
     private javax.swing.JButton btnPonto;
     private javax.swing.JButton btnRecisao;
+    private javax.swing.JButton btnRemuneracao;
+    private javax.swing.JButton btnTokioSaber;
+    private javax.swing.JButton btnTrilhaCarreira;
     // End of variables declaration//GEN-END:variables
 }
