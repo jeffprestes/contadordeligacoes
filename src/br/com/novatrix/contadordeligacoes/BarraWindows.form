@@ -94,21 +94,33 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Tokio Saber"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTokioSaberActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnTrilhaCarreira">
       <Properties>
         <Property name="text" type="java.lang.String" value="Trilha"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTrilhaCarreiraActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnRemuneracao">
       <Properties>
         <Property name="text" type="java.lang.String" value="Remunera&#xe7;&#xe3;o"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRemuneracaoActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnMobilidade">
       <Properties>
         <Property name="text" type="java.lang.String" value="Mobilidade"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMobilidadeActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

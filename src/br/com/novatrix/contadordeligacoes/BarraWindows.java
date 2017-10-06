@@ -125,15 +125,35 @@ public class BarraWindows extends javax.swing.JFrame {
         getContentPane().add(btnContratacao);
 
         btnTokioSaber.setText("Tokio Saber");
+        btnTokioSaber.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTokioSaberActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnTokioSaber);
 
         btnTrilhaCarreira.setText("Trilha");
+        btnTrilhaCarreira.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTrilhaCarreiraActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnTrilhaCarreira);
 
         btnRemuneracao.setText("Remuneração");
+        btnRemuneracao.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRemuneracaoActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnRemuneracao);
 
         btnMobilidade.setText("Mobilidade");
+        btnMobilidade.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMobilidadeActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnMobilidade);
 
         pack();
@@ -170,6 +190,22 @@ public class BarraWindows extends javax.swing.JFrame {
     private void btnContratacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnContratacaoActionPerformed
         insereLigacao(8);
     }//GEN-LAST:event_btnContratacaoActionPerformed
+
+    private void btnTokioSaberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTokioSaberActionPerformed
+        insereLigacao(9);
+    }//GEN-LAST:event_btnTokioSaberActionPerformed
+
+    private void btnTrilhaCarreiraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTrilhaCarreiraActionPerformed
+        insereLigacao(10);
+    }//GEN-LAST:event_btnTrilhaCarreiraActionPerformed
+
+    private void btnRemuneracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRemuneracaoActionPerformed
+        insereLigacao(11);
+    }//GEN-LAST:event_btnRemuneracaoActionPerformed
+
+    private void btnMobilidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMobilidadeActionPerformed
+        insereLigacao(12);
+    }//GEN-LAST:event_btnMobilidadeActionPerformed
 
     /**
      * @param args the command line arguments
