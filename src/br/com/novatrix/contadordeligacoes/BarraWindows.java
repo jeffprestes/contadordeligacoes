@@ -53,6 +53,9 @@ public class BarraWindows extends javax.swing.JFrame {
         btnTrilhaCarreira = new javax.swing.JButton();
         btnRemuneracao = new javax.swing.JButton();
         btnMobilidade = new javax.swing.JButton();
+        btnOutros = new javax.swing.JButton();
+        btnEducacional = new javax.swing.JButton();
+        btnGD = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Contador de ligações - RH Tokio Marine Seguradora");
@@ -100,7 +103,7 @@ public class BarraWindows extends javax.swing.JFrame {
         });
         getContentPane().add(btnRecisao);
 
-        btnBeneficioGeral.setText("Benefícios Geral");
+        btnBeneficioGeral.setText("BE Geral");
         btnBeneficioGeral.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBeneficioGeralActionPerformed(evt);
@@ -156,6 +159,25 @@ public class BarraWindows extends javax.swing.JFrame {
         });
         getContentPane().add(btnMobilidade);
 
+        btnOutros.setText("Outros");
+        getContentPane().add(btnOutros);
+
+        btnEducacional.setText("BE Educacional");
+        btnEducacional.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEducacionalActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnEducacional);
+
+        btnGD.setText("GD & 360");
+        btnGD.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnGDActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnGD);
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -207,6 +229,14 @@ public class BarraWindows extends javax.swing.JFrame {
         insereLigacao(12);
     }//GEN-LAST:event_btnMobilidadeActionPerformed
 
+    private void btnGDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGDActionPerformed
+        insereLigacao(13);
+    }//GEN-LAST:event_btnGDActionPerformed
+
+    private void btnEducacionalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEducacionalActionPerformed
+        insereLigacao(14);
+    }//GEN-LAST:event_btnEducacionalActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -252,10 +282,13 @@ public class BarraWindows extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnBeneficioGeral;
     private javax.swing.JButton btnContratacao;
+    private javax.swing.JButton btnEducacional;
     private javax.swing.JButton btnFerias;
     private javax.swing.JButton btnFolha;
+    private javax.swing.JButton btnGD;
     private javax.swing.JButton btnLicMaternidade;
     private javax.swing.JButton btnMobilidade;
+    private javax.swing.JButton btnOutros;
     private javax.swing.JButton btnPlanoSaude;
     private javax.swing.JButton btnPonto;
     private javax.swing.JButton btnRecisao;
